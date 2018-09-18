@@ -48,3 +48,11 @@ function authorsReducer(state = [], action) {
       return state;
   }
 }
+
+
+// For learning purposes, our two reducers are in the same file, 
+// but it is common to separate each reducer into its own file. 
+// You could then either import each reducer into a new file, 
+// something like reducers/rootReducer.js,
+//  where combineReducer is called. Or, alternatively, 
+//  you could include combineReducer in your src/index.js file. 
